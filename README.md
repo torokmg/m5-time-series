@@ -8,7 +8,7 @@
 
 ![M5 Competition](./images/m5_competition.jpeg)
 
-### About
+## About
 This project is perfect for exploring and learning about the many facets of timeseries data. The data was obtained from the Kaggle website as part of the latest M series competition, created by forecasting legend Spyros Makridakis, as a way for the data science and statistical communities to come together and compare classic and emerging forecasting technologies.
 
 There are over 5k participants who are all working together as a community to analyze data, create helper functions for others to use, create various models, run hyperparameter searches, etc.
@@ -26,7 +26,7 @@ The models results varied widely, with the ARIMA, LightGBM, and Facebook Prophet
 In addition to creating the predictions, we set out to answer three seperate questions while we explored the data, as a way to ass business value to the entire process.
 
 
-### Questions
+## Questions
 Although the main goal of this competition is to create a highly accurate predictive model, we chose to focus on additional questions we could answer through our exploration of the dataset.
 
 Some important questions we chose to address:
@@ -36,17 +36,17 @@ Some important questions we chose to address:
 4. (Possibly SNAP question)
 
 
-### Purpose
+## Purpose
 We have been given a dataset of over 30,000 different items sold at Walmart, and we have been asked to create a 28 day prediction horizon for each of these items.
 
 This dataset brings many different problems with it, including the sheer size of the dataset (over 58 million rows), the amount of zero values, and the complexity of generating hierchical predictions for over 30,000 different timeseries.
 
-### Presentation
+## Presentation
 Online powerpoint style presentation:
 [Click here for online non-technical presentation](TODO)
 
 
-### Data
+## Data
 This dataset is part of an ongoing competition located on [Kaggle](https://www.kaggle.com/c/m5-forecasting-accuracy).
 
 
@@ -79,25 +79,27 @@ This dataset is part of an ongoing competition located on [Kaggle](https://www.k
 
 ## Recommendations
 ------------
-1. In which state do the stores tend to be the most profitable?
+### 1. In which state do the stores tend to be the most profitable?
 
 ![Revenue per Store](./images/revenue_per_store.png)
 
 Recommendation: Based on the limited data available pertaining to geographic location, we can recommend California as the highest revenue generating state. This does not take into account other factors though such as differences in cost of living, or population of the city (which we don't know from this dataset).
 
-2. Which categories generate the most revenue, and which items in those categories tend to produce the most revenue?
+### 2. Which categories generate the most revenue?
 
 ![Categories That Generate the most Revenue](./images/cat_revenue.png)
 
 We can see from the graphs that the 'food' category outsells the others 99% of the time. The only case where it is not the highest is in the 'CA_2' store, and only for some days.
 
+
+## 3. Which items tend to produce the most revenue at each store?
 ![Top 5 Items by Revenue per Store](./images/top_5_per_store.png)
 
 
  
 Explanation: TODO
 
-3. Which items sell best during the holidays, and which of these items sell better before the holiday vs after the holiday?
+## 4. Which items sell best during the holidays, and which of these items sell better before the holiday vs after the holiday?
 
 ![Top Items Sold per Holiday](TODO)
 
