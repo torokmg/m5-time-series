@@ -68,6 +68,10 @@ This dataset is part of an ongoing competition located on [Kaggle](https://www.k
     │   ├── blog.md                <- Blog post
     │   └── video_walkthrough      <- Link to video walkthrough
     │
+    ├── predictions                <- Generated predictions in submission format
+    │
+    ├── models                     <- Trained models used for creating predictions
+    │
     └── requirements.txt           <- The requirements file for reproducing the analysis environment
    
 
@@ -83,7 +87,13 @@ Recommendation: Based on the limited data available pertaining to geographic loc
 
 2. Which categories generate the most revenue, and which items in those categories tend to produce the most revenue?
 
-![Top 5 Items by Revenue per Store](TODO)
+![Categories That Generate the most Revenue](./images/cat_revenue.png)
+
+We can see from the graphs that the 'food' category outsells the others 99% of the time. The only case where it is not the highest is in the 'CA_2' store, and only for some days.
+
+![Top 5 Items by Revenue per Store](./images/top_5_per_store.png)
+
+
  
 Explanation: TODO
 
@@ -96,3 +106,4 @@ Explanation: TODO
 ## Conclusions
 ------------
 TODO
+
