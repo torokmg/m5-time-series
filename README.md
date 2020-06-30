@@ -102,7 +102,7 @@ Explanation: As we saw with the most popular category question, food items remai
 ## 4. Predicting Sales for the next 28 days
 ![Predictions](./images/preds.png)
 
-Full Predictions can be found here: ![Full Predictions](TODO)
+Full Predictions can be found here: ![Full Predictions](https://github.com/torokmg/m5-time-series/blob/master/models/submission_lgbm_05.csv)
 ## Conclusions
 ------------
 Our recomendation would be to invest in store in the state of California.  Focus on food sales as that category sells the most in almost every store.
