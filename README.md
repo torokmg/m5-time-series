@@ -100,10 +100,10 @@ We can see from the graphs that the 'food' category outsells the others 99% of t
 Explanation: As we saw with the most popular category question, food items remain the most popular products in our stores.  By breaking it down to the Top items for each store we can more readily keep those items in stock.
 
 ## 4. Predicting Sales for the next 28 days
+![Predictions](./images/preds.png)
 
-
-
+Full Predictions can be found here: ![Full Predictions](TODO)
 ## Conclusions
 ------------
-TODO
+Our recomendation would be to invest in store in the state of California.  Focus on food sales as that category sells the most in almost every store.
 
