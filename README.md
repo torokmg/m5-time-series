@@ -43,7 +43,7 @@ This dataset brings many different problems with it, including the sheer size of
 
 ## Presentation
 Online powerpoint style presentation:
-[Click here for online non-technical presentation](TODO)
+[Click here for online non-technical presentation](https://github.com/torokmg/m5-time-series/blob/master/Walmart%20Time%20Series%20Analysis.pdf)
 
 
 ## Data
@@ -97,13 +97,11 @@ We can see from the graphs that the 'food' category outsells the others 99% of t
 
 
  
-Explanation: TODO
+Explanation: As we saw with the most popular category question, food items remain the most popular products in our stores.  By breaking it down to the Top items for each store we can more readily keep those items in stock.
 
-## 4. Which items sell best during the holidays, and which of these items sell better before the holiday vs after the holiday?
+## 4. Predicting Sales for the next 28 days
 
-![Top Items Sold per Holiday](TODO)
 
-Explanation: TODO
 
 ## Conclusions
 ------------
