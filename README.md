@@ -31,9 +31,9 @@ Although the main goal of this competition is to create a highly accurate predic
 
 Some important questions we chose to address:
 1. Which store and in which state do stores tend to generate more revenue?
-2. Which products to sell in specific store(s)/state(s)
-3. Which items sell the best during holidays?
-4. (Possibly SNAP question)
+2. Which catagory of products sell best?
+3. Which products to sell in specific store(s)/state(s)?
+4. Predictions of the next 28 days of sales
 
 
 ## Purpose
